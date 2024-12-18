@@ -33,9 +33,15 @@ h1 {
 .divider {
   width: 100%;
   height: 1px;
-  margin: 36px 0;
+  margin: 40px 0;
   background-color: #d9d9d9;
 }
+
+#list ol {
+  width: 100%;
+  list-style-position: inside;
+}
+
 #card-travel {
   margin-bottom: 48px;
 }
@@ -58,6 +64,9 @@ strong {
   margin-top: 64px;
   margin-bottom: 40px;
 }
+.info-txt {
+  margin-bottom: 4px;
+}
 h2 {
   font-size: 32px;
   font-weight: bold;
@@ -67,16 +76,40 @@ h3 {
   font-weight: bold;
   font-size: 28px;
 }
+h2 h3 {
+  color: #1b1b1b;
+  margin-bottom: 4px;
+}
 
 p {
   font-size: 16px;
   color: #333333;
 }
 ul {
-  padding-left: 20px;
-  margin-left: 0px;
   list-style-type: disc;
 }
 ul li::marker {
   color: #333333;
+}
+
+.text-bottom {
+  text-align: center;
+}
+
+.casais {
+  font-weight: bold;
+  font-size: 16px;
+  color: #591b98;
+}
+
+.familias {
+  font-weight: bold;
+  font-size: 16px;
+  color: #e5245e;
+}
+
+.orcamentos {
+  font-weight: bold;
+  font-size: 16px;
+  color: #e95e10;
 }
