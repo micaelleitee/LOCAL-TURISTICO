@@ -1,0 +1,33 @@
+* {
+  font-family: "Open Sans", serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  width: 1120px;
+  height: 3054px;
+  margin: 88px auto;
+}
+img {
+  border-radius: 28px;
+  width: 100%;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+p {
+  font-size: 16px;
+  color: #333333;
+}
+ul {
+  padding-left: 20px;
+  margin-left: 0px;
+  list-style-type: disc;
+}
+ul li::marker {
+  color: #333333;
+}
