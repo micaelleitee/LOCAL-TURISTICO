@@ -14,6 +14,45 @@ img {
   width: 100%;
 }
 
+#title {
+  margin-bottom: 40px;
+}
+
+.headline {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  color: #e1624f;
+}
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+#card-travel {
+  margin-bottom: 48px;
+}
+#card-travel-2 {
+  margin-bottom: 48px;
+}
+
+#card-travel-3 {
+  margin-bottom: 48px;
+}
+strong {
+  font-weight: bold;
+  font-size: 16px;
+}
+.lista {
+  font-weight: bold;
+  color: #0c51a7;
+}
 h3 {
   font-weight: bold;
   font-size: 28px;
